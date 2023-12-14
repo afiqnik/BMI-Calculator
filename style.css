@@ -6,6 +6,17 @@ body {
   text-align: center;
 }
 
+label {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
 p {
   width: 350px;
 }
@@ -20,4 +31,7 @@ button {
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
+}
+#result {
+  margin-top: 20px;
 }
